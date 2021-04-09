@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Ges
         PictureNo = 0
         ShowPicture()
         return true
-
     }
     override fun onLongPress(p0: MotionEvent?) {
         PictureNo = TotalPictures - 1
